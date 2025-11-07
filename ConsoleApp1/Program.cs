@@ -17,8 +17,8 @@ namespace ConsoleTasks
 
         static void Task1()
         {
-            string userName = "Ridan Shrestha";
-            int luckyNumber = 9;
+            string userName = "Rachana Khatri";
+            int luckyNumber = 3;
             Console.WriteLine($"My name is: {userName}");
             Console.WriteLine($"My lucky number is: {luckyNumber}");
             Console.WriteLine($"Hello {userName}! your lucky number is {luckyNumber}");
@@ -98,7 +98,7 @@ namespace ConsoleTasks
             TimeSpan ageSpan = currentDate - birthDate;
             int ageInYears = (int)(ageSpan.TotalDays / 365.25);
 
-            Console.WriteLine($"Birthdate: {birthDate.ToSgit hortDateString()}");
+            Console.WriteLine($"Birthdate: {birthDate.ToShortDateString()}");
             Console.WriteLine($"Current Date: {currentDate.ToShortDateString()}");
             Console.WriteLine($"Age: {ageInYears} years");
 
